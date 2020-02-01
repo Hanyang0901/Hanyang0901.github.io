@@ -1,4 +1,4 @@
-# github-Hanyang-Xiao.github.io-
+# github-Hanyang-Xiao.github.io
 Repository for CS465 Project 1
 
 
