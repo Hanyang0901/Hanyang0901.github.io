@@ -109,24 +109,3 @@
   </div>
 </div>
 
-
-
-
-
-<footer>
-  <button id="button_to_top" a onclick="pageScroll()">Back to top</a>
-  </button>
-  <script>
-    function pageScroll(){
-
-    window.scrollBy(0,-100);
-   
-    scrolldelay = setTimeout('pageScroll()',100);
-    var sTop=document.documentElement.scrollTop+document.body.scrollTop;
-
-    if(sTop==0) clearTimeout(scrolldelay);
-}
-  </script>
-</footer>
-
-</html>
