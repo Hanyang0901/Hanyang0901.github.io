@@ -279,7 +279,7 @@ transform: scaleX(1);
 }
 
 .card svg {
-  background-image: url("image/Z_self.PNG");
+  background-image: url("image/Z_self.png");
   height: 24em;
   left: -3em;
   position: relative;
