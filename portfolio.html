@@ -23,48 +23,7 @@
     <img  id="header_img" src="image/back_img_2.jpeg">
   </div>
   
-  <div class="name_center">
-    <div id="name_img">
-      <img src="image/name_img.PNG">
-    </div>
-    <div id="name"> Hanyang Xiao </div>
-  </div>
-  <div class="lists_center">
-    <ul id="Nav">
-      <li id="button_one" onclick="window.location.href = '#Bio';">Bio</li>
-      <li id="button_two" onclick="window.location.href = '#Hometown';">Hometown</li>
-      <li id="button_three" onclick="window.location.href = '#life';">Life</li>
-      <li id="button_four" onclick="window.location.href = '#Projects';">Previous Projects</li>
-      <li id="button_five" onclick="window.location.href = '#Contact';">Contact Me</li>
-    </ul>  
-  </div>
-  
-<div class="bio_center" id="Bio">
-    <h1>A Brief Bio</h1>
-  <div class="card preview">
-  <div class="details">
-    <header class="entry-header">
-      <h2>Hanyang</h2>
-    </header>
-    <div class="title">Bio</div>
-    <div class="desc">Hanyang Xiao, comes from Anhui Province, China. Transferred to the United States in 2017 and currently studying at Portland State University.</div>
-    <div class="actions">
-      <div class="extra">
-        <button class="close">CLOSE</button>
-      </div>
-      <button class="action view">MORE</button>
-    </div>
-  </div>
-  <div class="picture">
-    <svg viewBox="0 0 100 100">
-      <div class="bio_img">
-          
-      </div>
-    </svg>
-  </div>
-</div>
-<script src="script.js"></script>
-</div>  
+
       <h1>My Hometown</h1>
 <div class="Home_center" id="Hometown">
 
@@ -109,3 +68,50 @@
   </div>
 </div>
 
+<div class="contact_center" id="Contact">
+    <h1>Contact Me</h1>
+  <form>
+    <fieldset>
+      <h1 class="blocks" id="title">
+        <label for="contact_form">CONTACT FORM </label>
+      </h1>
+      
+      <div class="blocks" id="info">
+        <lable for="name">Name
+        <input type="text" id="inp" name="Name"></lable><br>
+        <lable for="email">Email 
+        <input type="text" id="inp" name="Email"></lable><br>
+      </div>
+      <div class="blocks" id="comment">
+        <lable for="comment">Any Comments?<br><br>
+         <textarea name="comment" cols="62" rows="10"></textarea></lable>   <br><br>
+      </div>
+      
+      <div class="blocks">
+        <button type="submit" class="button">Submit</button>
+        <button type="submit" class="button">Reset</button>
+      </div>
+      
+    </fieldset>
+  </form>
+</div>
+
+
+
+<footer>
+  <button id="button_to_top" a onclick="pageScroll()">Back to top</a>
+  </button>
+  <script>
+    function pageScroll(){
+
+    window.scrollBy(0,-100);
+   
+    scrolldelay = setTimeout('pageScroll()',100);
+    var sTop=document.documentElement.scrollTop+document.body.scrollTop;
+
+    if(sTop==0) clearTimeout(scrolldelay);
+}
+  </script>
+</footer>
+
+</html>
