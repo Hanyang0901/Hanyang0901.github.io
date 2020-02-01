@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>3-Portfolio</title>
+  <link rel="stylesheet" href="test.css" />
+  <script type="text/javascript" src="tools.js"></script>
+  <script type="text/javascript" src="js.js"></script>
+
+
+</head>
+
+<body>
+<div id="BGM">
+    <audio controls>
+
+        <source src="BackgroundMusic.mp3" type="audio/mpeg">
+
+    </audio>
+</div>
+
+  <div class="header_center">
+    <img  id="header_img" src="back_img_2.jpeg">
+  </div>
+  
+  <div class="name_center">
+    <div id="name_img">
+      <img src="name_img.PNG">
+    </div>
+    <div id="name"> Hanyang Xiao </div>
+  </div>
+  <div class="lists_center">
+    <ul id="Nav">
+      <li id="button_one" onclick="window.location.href = '#Bio';">Bio</li>
+      <li id="button_two" onclick="window.location.href = '#Hometown';">Hometown</li>
+      <li id="button_three" onclick="window.location.href = '#life';">Life</li>
+      <li id="button_four" onclick="window.location.href = '#Contact';">Contact Me</li>
+    </ul>  
+  </div>
+  
+<div class="bio_center" id="Bio">
+    <h1>A Brief Bio</h1>
+  <div class="card preview">
+  <div class="details">
+    <header class="entry-header">
+      <h2>Hanyang</h2>
+    </header>
+    <div class="title">Bio</div>
+    <div class="desc">Hanyang Xiao, comes from Anhui Province, China. Transferred to the United States in 2017 and currently studying at Portland State University.</div>
+    <div class="actions">
+      <div class="extra">
+        <button class="contact" >CONTACT ME</button>
+        
+        <button class="close">CLOSE</button>
+      </div>
+      <button class="action view">MORE</button>
+    </div>
+  </div>
+  <div class="picture">
+    <svg viewBox="0 0 100 100">
+      <div class="bio_img">
+          
+      </div>
+    </svg>
+  </div>
+</div>
+<script src="script.js"></script>
+</div>  
+      <h1>My Hometown</h1>
+<div class="Home_center" id="Hometown">
+
+
+  <div class="home_card">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1579253930270&di=75b678ee20b67f073db89732575d6eae&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fitbbs%2F1702%2F01%2Fc11%2F36546702_1485943971973.jpg" style="width:100%">
+    <div class="container">
+      <h4><b>An Hui</b></h4> 
+      <p>With a population of 62 million, Anhui is the 8th most populous province in China. It is the 22nd largest Chinese province based on area, and the 12th most densely-populated region of all 34 Chinese provincial regions. Anhui's population is mostly composed of Han Chinese. Languages spoken within the province include Mandarin, Jianghuai Mandarin, and the Gan，Wu, and Hui varieties of Chinese.</p> 
+    </div>
+  </div>
+    <div class="home_card">
+    <img src="http://img0.imgtn.bdimg.com/it/u=1134529631,2443275229&fm=26&gp=0.jpg" style="width:100%">
+    <div class="container">
+      <h4><b>An Hui</b></h4> 
+      <p>Before Anhui was established, this land had a long history. Two million years ago, human beings inhabited this area, proven by some findings in Fanchang County. Archaeologists have identified the cultural domains of Yangshao and Longshan, dated to the Neolithic Age (between 4,000 and 10,000 years ago).</p> 
+    </div>
+  </div>
+
+ 
+    <div class="link_button"> <a href="https://en.wikipedia.org/wiki/Anhui" target="_blank">Click and learn more! -----></a></div>
+</div> 
+
+    <h1>My life</h1>
+<div class="life_center" id="life">
+
+    <div class="wrap" id="wrap">
+	<ul class="content"></ul>
+	<a href="javascript:;" class="prev">&#60;</a>
+	<a href="javascript:;" class="next">&#62;</a>
+    </div>
+</div>
+
+
+
+
+
+<div class="contact_center" id="Contact">
+<h1>Contact Me</h1>
+      <form>
+    <fieldset>
+      <h1 class="blocks" id="title">
+        <label for="contact_form">CONTACT FORM </label>
+      </h1>
+      
+      <div class="blocks" id="info">
+        <lable for="name">Name
+        <input type="text" id="inp" name="Name"></lable><br>
+        <lable for="email">Email 
+        <input type="text" id="inp" name="Email"></lable><br>
+      </div>
+      <div class="blocks" id="comment">
+        <lable for="comment">Any Comments?<br><br>
+         <textarea name="comment" cols="62" rows="10"></textarea></lable>   <br><br>
+      </div>
+      
+      <div class="blocks">
+        <button type="submit" class="button">Submit</button>
+        <button type="submit" class="button">Reset</button>
+      </div>
+      
+    </fieldset>
+  </form>
+</div>
+<footer>
+  <button id="button_to_top" a onclick="pageScroll()">Back to top</a>
+  </button>
+  <script>
+    function pageScroll(){
+
+    window.scrollBy(0,-100);
+   
+    scrolldelay = setTimeout('pageScroll()',100);
+    var sTop=document.documentElement.scrollTop+document.body.scrollTop;
+
+    if(sTop==0) clearTimeout(scrolldelay);
+}
+  </script>
+</footer>
+
+</html>
