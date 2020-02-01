@@ -1,12 +1,12 @@
 window.onload=function(){
     var imgArr=[
-        {"path":"1.jpeg"},
-        {"path":"2.jpeg"},
-        {"path":"3.jpeg"},
-        {"path":"4.jpeg"},
-        {"path":"5.jpeg"},
-        {"path":"6.jpeg"},
-        {"path":"7.jpeg"}
+        {"path":"image/1.jpeg"},
+        {"path":"image/2.jpeg"},
+        {"path":"image/3.jpeg"},
+        {"path":"image/4.jpeg"},
+        {"path":"image/5.jpeg"},
+        {"path":"image/6.jpeg"},
+        {"path":"image/7.jpeg"}
     ];
     var size=[
         {"top":60,"left":0,"width":400,"height":240,"zIndex":1,"opacity":0},

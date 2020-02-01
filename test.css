@@ -54,7 +54,7 @@ body{
   font-family: Tahoma, Geneva, sans-serif
 }
   #button_one {
-    background-image: url("shanshui.png");
+    background-image: url("image/shanshui.png");
     border: none;
     color: black;
     width: 200px;
@@ -71,10 +71,10 @@ body{
   }
   #button_one:hover {
     opacity: 0.5;
-    background-image: url("ren.gif")
+    background-image: url("image/ren.gif")
   }
   #button_two {
-    background-image: url("shanshui.png");
+    background-image: url("image/shanshui.png");
     border: none;
     color: black;
     width: 200px;
@@ -91,10 +91,10 @@ body{
   }
   #button_two:hover {
     opacity: 0.5;
-    background-image: url("yi.gif")
+    background-image: url("image/yi.gif")
   }
   #button_three {
-    background-image: url("shanshui.png");
+    background-image: url("image/shanshui.png");
     border: none;
     color: black;
     width: 200px;
@@ -111,10 +111,10 @@ body{
   }
   #button_three:hover {
     opacity: 0.5;
-    background-image: url("xin.gif")
+    background-image: url("image/xin.gif")
   }
   #button_four {
-    background-image: url("shanshui.png");
+    background-image: url("image/shanshui.png");
     border: none;
     color: black;
     width: 200px;
@@ -131,33 +131,7 @@ body{
   }
   #button_four:hover {
     opacity: 0.5;
-    background-image: url("li.gif")
-  }
-  a{
-      color: black;
-      text-decoration: none;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  #button_five {
-    background-image: url("shanshui.png");
-    border: none;
-    color: black;
-    width: 200px;
-    text-align: center;
-    font-size: 26px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.3s;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    margin-bottom:  25px;
-    height: 200px;
-  }
-  #button_five:hover {
-    opacity: 0.5;
-    background-image: url("li.gif")
+    background-image: url("image/i.gif")
   }
   a{
       color: black;
@@ -302,7 +276,7 @@ transform: scaleX(1);
 }
 
 .card svg {
-  background-image: url("Z_self.PNG");
+  background-image: url("image/Z_self.PNG");
   height: 24em;
   left: -3em;
   position: relative;
