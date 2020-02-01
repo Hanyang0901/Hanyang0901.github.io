@@ -31,22 +31,7 @@ body{
     text-align: center;
     margin-top: 100px;
   }
-  #button_to_top {
-    border: none;
-    color: black;
-    width: 100px;
-    text-align: center;
-    font-size: 26px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.3s;
-    display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    margin-bottom:  25px;
-    height: 100px;
-    
-  }
+
 
 .lists_center{
   font-family: Tahoma, Geneva, sans-serif
@@ -459,6 +444,7 @@ div.expanded {
 .link_button{
   color: black;
   background-color:white;
+  transition: 0.3;
 }
 
 .wrap {
@@ -575,6 +561,22 @@ div.expanded {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+  }
+  #button_to_top {
+    border: none;
+    color: black;
+    width: 100px;
+    text-align: center;
+    font-size: 26px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom:  25px;
+    height: 100px;
+    
   }
   #button_to_top:hover {
     opacity: 0.5;
